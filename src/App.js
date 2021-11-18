@@ -2,8 +2,11 @@ import styled from 'styled-components';
 import Card from './Card';
 
 const Layout = styled('div')`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-top: calc( 50vh - 150px );
+  min-height: 100vh;
 `
 
 function App() {
