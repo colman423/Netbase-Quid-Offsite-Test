@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Constellation/static/css/main.d16c4b9d.chunk.css",
-    "main.js": "/Constellation/static/js/main.0e4a7c0e.chunk.js",
-    "main.js.map": "/Constellation/static/js/main.0e4a7c0e.chunk.js.map",
-    "runtime-main.js": "/Constellation/static/js/runtime-main.8c31caed.js",
-    "runtime-main.js.map": "/Constellation/static/js/runtime-main.8c31caed.js.map",
-    "static/css/2.3b382b35.chunk.css": "/Constellation/static/css/2.3b382b35.chunk.css",
-    "static/js/2.93245a75.chunk.js": "/Constellation/static/js/2.93245a75.chunk.js",
-    "static/js/2.93245a75.chunk.js.map": "/Constellation/static/js/2.93245a75.chunk.js.map",
-    "index.html": "/Constellation/index.html",
-    "static/css/2.3b382b35.chunk.css.map": "/Constellation/static/css/2.3b382b35.chunk.css.map",
-    "static/css/main.d16c4b9d.chunk.css.map": "/Constellation/static/css/main.d16c4b9d.chunk.css.map",
-    "static/js/2.93245a75.chunk.js.LICENSE.txt": "/Constellation/static/js/2.93245a75.chunk.js.LICENSE.txt"
+    "main.css": "/Netbase-Quid-Offsite-Test/static/css/main.d16c4b9d.chunk.css",
+    "main.js": "/Netbase-Quid-Offsite-Test/static/js/main.0e4a7c0e.chunk.js",
+    "main.js.map": "/Netbase-Quid-Offsite-Test/static/js/main.0e4a7c0e.chunk.js.map",
+    "runtime-main.js": "/Netbase-Quid-Offsite-Test/static/js/runtime-main.4c444e42.js",
+    "runtime-main.js.map": "/Netbase-Quid-Offsite-Test/static/js/runtime-main.4c444e42.js.map",
+    "static/css/2.3b382b35.chunk.css": "/Netbase-Quid-Offsite-Test/static/css/2.3b382b35.chunk.css",
+    "static/js/2.86918a13.chunk.js": "/Netbase-Quid-Offsite-Test/static/js/2.86918a13.chunk.js",
+    "static/js/2.86918a13.chunk.js.map": "/Netbase-Quid-Offsite-Test/static/js/2.86918a13.chunk.js.map",
+    "index.html": "/Netbase-Quid-Offsite-Test/index.html",
+    "static/css/2.3b382b35.chunk.css.map": "/Netbase-Quid-Offsite-Test/static/css/2.3b382b35.chunk.css.map",
+    "static/css/main.d16c4b9d.chunk.css.map": "/Netbase-Quid-Offsite-Test/static/css/main.d16c4b9d.chunk.css.map",
+    "static/js/2.86918a13.chunk.js.LICENSE.txt": "/Netbase-Quid-Offsite-Test/static/js/2.86918a13.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8c31caed.js",
+    "static/js/runtime-main.4c444e42.js",
     "static/css/2.3b382b35.chunk.css",
-    "static/js/2.93245a75.chunk.js",
+    "static/js/2.86918a13.chunk.js",
     "static/css/main.d16c4b9d.chunk.css",
     "static/js/main.0e4a7c0e.chunk.js"
   ]
