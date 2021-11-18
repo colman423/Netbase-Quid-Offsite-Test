@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import cx from 'classnames';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faFacebook, faInstagram, faYoutube} from '@fortawesome/free-brands-svg-icons'
 import Button from './Button';
@@ -12,15 +11,15 @@ const Layout = styled('div')`
 `;
 
 const StyledTabContainer = styled(TabContainer)`
-  font-weight: 600;
   flex: auto 1 0;
   color: #ffffff;
 
   .tab{
     width: 40px;
     color: white;
-    padding: 8px 8px;
+    padding: 8px 4px;
     text-transform: uppercase;
+    font-weight: 700;
 
     &.active {
       background-color: white;
@@ -30,7 +29,7 @@ const StyledTabContainer = styled(TabContainer)`
 `;
 
 const HideButton = styled(Button)`
-  flex: 64px 0 1;
+  flex: 48px 0 1;
   border-left: 1px solid #ffffff33;
   color: #ffffff;
   font-weight: 600;

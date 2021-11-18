@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { ToastContainer } from 'react-toastify';
 import Card from './Card';
 
 const Layout = styled('div')`
@@ -13,6 +14,8 @@ function App() {
   return (
     <Layout>
       <Card />
+      <ToastContainer limit={1}/>
+
     </Layout>
   );
 }

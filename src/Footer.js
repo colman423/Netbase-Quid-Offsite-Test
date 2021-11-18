@@ -1,7 +1,4 @@
 import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faQuestion } from '@fortawesome/free-solid-svg-icons'
-import Button from './Button';
 
 const Layout = styled('div')`
   text-align: center;
@@ -10,10 +7,10 @@ const Layout = styled('div')`
   padding: 4px 0px;
 `;
 
-const FooterText = styled('span')`
+const FooterText = styled('div')`
   font-weight: 700;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 12px;
 `
 
 function Footer(props) {

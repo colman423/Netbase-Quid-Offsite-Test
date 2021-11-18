@@ -13,7 +13,7 @@ const Layout = styled('div')`
 const HeaderText = styled('h1')`
   font-weight: 700;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
 `
 
 const FloatingIcon = styled(Button)`

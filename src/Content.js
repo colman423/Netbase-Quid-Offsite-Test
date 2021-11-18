@@ -23,6 +23,25 @@ const Scrollable = styled('div')`
   flex: auto 1 1;
   overflow-y: auto;
   padding: 0px 4px 4px 4px;
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #00000033; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 `;
 
 const Row = styled('div')`
@@ -58,32 +77,35 @@ const Posts = styled('div')`
 
 
 
-function Content() {
+function Content({show}) {
   return (
     <Layout>
-      <TopTerms>Top Terms</TopTerms>
-      <Scrollable>
-        <Thead>
-          <Terms>Terms</Terms>
-          <Chart>% of Total Posts</Chart>
-          <Posts># of Posts</Posts>
-        </Thead>
-        { TERMS.map( (term, idx) => (
-          <Tbody key={idx}>
-            <Terms>
-              {term.name}
-            </Terms>
-            <Chart>
-              <Bar progress={term.count} />
-            </Chart>
-            <Posts>
-              {term.count}
-            </Posts>
-          </Tbody>
-        ))}
+      {!!show && (
+        <>
+          <TopTerms>Top Terms</TopTerms>
+          <Scrollable>
+            <Thead>
+              <Terms>Terms</Terms>
+              <Chart>% of Total Posts</Chart>
+              <Posts># of Posts</Posts>
+            </Thead>
+            { TERMS.map( (term, idx) => (
+              <Tbody key={idx}>
+                <Terms>
+                  {term.name}
+                </Terms>
+                <Chart>
+                  <Bar progress={term.count} />
+                </Chart>
+                <Posts>
+                  {term.count}
+                </Posts>
+              </Tbody>
+            ))}
 
-      </Scrollable>
-
+          </Scrollable>
+        </>
+      )}
     </Layout>
   )
 }

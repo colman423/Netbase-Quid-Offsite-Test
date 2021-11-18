@@ -6,7 +6,7 @@ function TabContainer(props) {
   return (
     <div {...others}>
       {children.map( (child, idx) => {
-        if( child && child.type == Tab ) {
+        if( child && child.type === Tab ) {
           return <Tab key={idx} tabCnt={tabCnt} onTabClick={onTabClick} {...child.props} />
         }
         else return child;

@@ -5,5 +5,5 @@ export default styled('button')`
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 12px;
 `;
